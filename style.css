@@ -20,8 +20,8 @@ body {
 
 .container {
     /* ! */
-    max-width: 1366px;
-    min-width: 600px;
+    width: 1366px;
+    /* min-width: 600px; */
     /* ! */
     margin: 0 auto;
 }
