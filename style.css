@@ -19,8 +19,10 @@ body {
 }
 
 .container {
-    width: 1366px;
+    /* ! */
+    max-width: 1366px;
     min-width: 600px;
+    /* ! */
     margin: 0 auto;
 }
 
@@ -235,6 +237,9 @@ header {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    /* ! */
+    flex-wrap: wrap;
+    /* ! */
 }
 
 .featured-explore-link {
@@ -286,6 +291,7 @@ content:">"
     line-height: 48px;
     color: #1e88e5;
     font-weight: 700;
+    
     /* margin-bottom: 20px; */
 }
 
@@ -404,6 +410,7 @@ content:">"
     padding-bottom: 120px;
     padding-top: 120px;
     background-color: #fff;
+    
 }
 
 .exclusive-l {
@@ -419,6 +426,9 @@ content:">"
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    /* ! */
+    flex-wrap:wrap;
+    /* ! */
 }
 
 .exclusive-r-a {
